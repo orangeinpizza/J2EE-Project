@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Chinmay
+*/
+
+.toolbar{
+    background-color: black;
+    margin: 0px;
+    height:70px;
+    padding: 0px ;
+    width: 100%;
+    padding-top: 15px;
+    font-family: Arial;
+    text-align: left;
+    font-stretch: semi-condensed;
+}
+
+.main{
+    background-color: black;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    border: none;
+    text-decoration: underline;
+    position: absolute;
+    padding-left: 25px;
+    float: left;
+}
+
+.clicks{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    border: none;
+    padding-right: 40px;
+    padding-top: 15px;
+    float: right;
+    text-decoration: none;
+}
+
+.toolbar a.clicks:hover {
+    color: blue;
+}
+
+.whologged{
+    background-color: gray;
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    border: none;
+    padding-top: 10px;
+    padding-left: 30px;
+    height: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 5px;
+    height: 200px; /* Should be removed. Only for demonstration */
+    text-align: center;
+}
+
+#half1{
+    background-image: url("https://images.unsplash.com/photo-1501925667057-7871b2708a1b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=436b698e7f25c51528dcf08de7c52421&auto=format&fit=crop&w=1050&q=80");
+}
+
+#half2{
+    background-image: url("https://images.unsplash.com/photo-1488248477548-d1a1c4694870?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=970ec6584163876563aef62cde1cd9b6&auto=format&fit=crop&w=967&q=80");
+}
+
+input[type=submit] {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: red;
+    text-decoration: underline;
+}

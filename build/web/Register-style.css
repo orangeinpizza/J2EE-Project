@@ -1,0 +1,108 @@
+/* 
+    Author     : Chinmay
+*/
+.toolbar{
+    background-color: black;
+    margin: 0px;
+    height:70px;
+    padding: 0px ;
+    width: 100%;
+    padding-top: 15px;
+    font-family: Arial;
+    color: white;
+    font-stretch: semi-condensed;
+}
+
+.main{
+    background-color: black;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    border: none;
+    text-decoration: underline;
+    position: absolute;
+    padding-left: 25px;
+    float: left;   
+}
+
+.clicks{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: none;
+    padding-right: 40px;
+    float: right;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.toolbar a.clicks:hover {
+  color: blue;
+}
+
+.fullform {
+    background-color: black;
+    background-image: url("https://hdqwalls.com/download/train-rail-5k-gv-2048x1152.jpg");
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 1210px;
+    height: 600px;
+    text-align: left;
+    border-radius: 100px;
+    z-index: 1;
+    margin-left: 165px;
+    margin-top: 35px;
+}
+
+#heads{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+input[type=text] {
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type=password] {
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+textarea[type=bigtext]{
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type=submit], input[type=reset] {
+    background-color:grey;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    color: blue;
+    background-color: black;
+}
+
+#tab{
+    padding-left: 300px;
+    padding-top: 30px;
+}
+

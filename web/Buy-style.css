@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Author     : Chinmay
+*/
+
+.tabled{
+    background-color: black;
+    margin-left: 135px;
+    width: 1300px;
+    font-family: Candara;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 70px;
+    border-collapse: collapse;
+}
+
+.thead{
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.thead.tr.trhead:hover{
+    background-color: black;
+    color: red;
+}
+
+.tabled tr:nth-child(even){
+    background-color: gray;
+    color: black;
+}
+
+.tabled tr:nth-child(odd){
+    color: white;
+}
